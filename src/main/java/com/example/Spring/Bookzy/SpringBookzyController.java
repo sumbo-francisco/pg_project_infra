@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringBookzyController {
   
       @RequestMapping("/hello")
-      pubblic String index() {
+      public String index() {
         return "Spring Boot Example!!";
       }
    
