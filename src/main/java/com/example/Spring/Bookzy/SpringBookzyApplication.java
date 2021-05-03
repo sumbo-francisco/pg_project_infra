@@ -2,8 +2,10 @@ package com.example.Spring.Bookzy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages= {"com.technicalkeeda"})
 public class SpringBookzyApplication {
 
 	public static void main(String[] args) {
