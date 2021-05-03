@@ -20,7 +20,7 @@ public class SpringBookzyApplication {
 @RestController
 class SpringBookzyController {
   
-      @RequestMapping("/Spring-Bookzy-0.0.1-SNAPSHOT")
+      @RequestMapping("/SpringBookzy")
       public String index() {
         return "Spring Boot Example!!";
       }
