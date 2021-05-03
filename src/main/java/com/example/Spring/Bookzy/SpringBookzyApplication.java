@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages={"com.example.Spring.Bookzy"})
+@ComponentScan
 public class SpringBookzyApplication {
 
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class SpringBookzyApplication {
 @RestController
 class SpringBookzyController {
   
-      @RequestMapping("/SpringBookzy")
+      @RequestMapping("/Spring-Bookzy-0.0.1-SNAPSHOT")
       public String index() {
         return "Spring Boot Example!!";
       }
