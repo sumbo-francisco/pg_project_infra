@@ -3,6 +3,8 @@ package com.example.Spring.Bookzy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
@@ -14,3 +16,14 @@ public class SpringBookzyApplication {
 	}
 
 }
+
+@RestController
+public class SpringBookzyController {
+  
+      @RequestMapping("/Spring-Bookzy-0.0.1-SNAPSHOT")
+      public String index() {
+        return "Spring Boot Example!!";
+      }
+   
+}
+
