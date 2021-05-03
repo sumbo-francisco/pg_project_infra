@@ -18,7 +18,7 @@ public class SpringBookzyApplication {
 }
 
 @RestController
-public class SpringBookzyController {
+class SpringBookzyController {
   
       @RequestMapping("/Spring-Bookzy-0.0.1-SNAPSHOT")
       public String index() {
